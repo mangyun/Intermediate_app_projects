@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676674160338",
+    "project_id": "push-notification-receiv-408f9",
+    "storage_bucket": "push-notification-receiv-408f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676674160338:android:0e506282a07d9527b9cf0b",
+        "android_client_info": {
+          "package_name": "com.leemyeongyun.push_notification_receiver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676674160338-l7sffgdpj7cc8cr9iu3drhon8g5le94r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqkHboas4ag3cL8AKMGcDUXjo-ye-CnCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676674160338-l7sffgdpj7cc8cr9iu3drhon8g5le94r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
