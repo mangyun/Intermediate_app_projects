@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/resultTextView"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="결과"
@@ -17,6 +17,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/resultTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -24,6 +25,7 @@
         android:text="결과 값입니다."
         android:textSize="16sp"
         android:textStyle="bold" />
+
 
     <TextView
         android:layout_width="wrap_content"

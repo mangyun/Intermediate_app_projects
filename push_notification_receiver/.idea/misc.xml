@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/auddb/AndroidStudioProjects/Intermediate_app_projects/push_notification_receiver/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/auddb/AndroidStudioProjects/Intermediate_app_projects/push_notification_receiver/app/src/main/res/layout/view_custom_notification.xml" value="0.25" />
         <entry key="..\:/Users/auddb/AndroidStudioProjects/push_notification_receiver/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
