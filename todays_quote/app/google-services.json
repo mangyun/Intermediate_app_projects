@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474603216949",
+    "project_id": "today-s-quote-2ad8c",
+    "storage_bucket": "today-s-quote-2ad8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474603216949:android:a03b15e3187d4ca7f6117c",
+        "android_client_info": {
+          "package_name": "com.leemyeongyun.todays_quote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474603216949-gfnuhlpb0hp4k3226j35lcltmf1l1vgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0sfzHl4CyhwSi5Zu3-4R-pf3Mt0YGJuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474603216949-gfnuhlpb0hp4k3226j35lcltmf1l1vgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
