@@ -41,7 +41,7 @@ dependencies {
 
     implementation platform('com.google.firebase:firebase-bom:29.0.0') //알아서 호환성이 맞는 버전을 사용하게 함
     implementation 'com.google.firebase:firebase-config-ktx' //이 프로젝트에 필요한 원격구성 의존성
-    implementation 'com.google.firebase:firebase-analytics-ktx' //기본 셋업
+    implementation 'com.google.firebase:firebase-analytics-ktx'//기본 셋업
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
