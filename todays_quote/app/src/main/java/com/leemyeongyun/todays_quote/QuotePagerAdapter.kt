@@ -18,10 +18,11 @@ class QuotePagerAdapter(
         )
 
     override fun onBindViewHolder(holder: QuoteViewHoler, position: Int) {
-        holder.bind(quotes[position], isNameRevealed) //해당 위치의 명언을 가져옴
+        val actualPosition = position % quotes.size //실제 위치에서 명언 갯수로 나누게 되면 해당위치의 값을 넣을 수 있음
+        holder.bind(quotes[actualPosition], isNameRevealed) //해당 위치의 명언을 가져옴
     }
 
-    override fun getItemCount() = quotes.size
+    override fun getItemCount() = Int.MAX_VALUE //무한 전환을 위해서
 
     //이름과 명언을 binding하는 함수
     class QuoteViewHoler(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -31,10 +32,10 @@ class QuotePagerAdapter(
         private val nameTextView: TextView = itemView.findViewById(R.id.nameTextView)
 
         fun bind(quote: Quote, isNameRevealed: Boolean) {
-            quoteTextView.text = quote.quote
+            quoteTextView.text = "\"${quote.quote}\"" //""로 감싸 출력
 
             if (isNameRevealed) {
-                nameTextView.text = quote.name
+                nameTextView.text = "- ${quote.name}"
                 nameTextView.visibility = View.VISIBLE //recycle뷰라 재사용하지 않으면, 안 보일수도 있음
             } else
                 nameTextView.visibility = View.GONE //아니라면 사라짐
